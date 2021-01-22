@@ -33,7 +33,7 @@ class Config {
 ## Demo Application
 https://youtu.be/fU6t9odfsdM
 
-## Our team members:
+## Our team:
 - [Sam](https://github.com/samyrsd)
 - [Sophy](https://github.com/pipidx)
 - [Sreyorn](https://github.com/Sreyorn)
