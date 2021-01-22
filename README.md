@@ -9,6 +9,26 @@ The app was designed to be simple and intuitive and easy, so that everyone, even
 ## Getting Started
 - To run this project, register your LINE Blockchain Developer account from [here](https://blockchain.line.biz/).
 - Create your own Wallet, Asset, and Token
-- Open `Config.dart` file, and put your setting there.
+- Open `lib/config.dart` file, and put your setting there:
 
 - For ease of development during this hackathon, we run a proxy server from this [lbp-signing-proxy](https://github.com/behumble/lbp-signing-proxy)
+```
+class Config {
+  //All the below key can be found after register and finish line blockchain developer account
+  static const serviceAPIKey = "YOUR_SERVICE_API_KEY";
+  static const walletAddress = "YOUR WALLET ADDRESS";
+  static const walletSecret = "YOUR_WALLET_SECRET";
+
+  //Non-Fungible Token requirement for listing and minting
+  //can be found after create NTF asset
+  static const contractID = 'CONTRACT_ID';
+  static const tokenType = 'TOKEN_ID';
+  /* 
+  https://test-api.blockchain.line.me: for Cashew testnet
+  https://api.blockchain.line.me: for Daphne
+  For this hackathon purpose, I run my own proxy from: https://github.com/behumble/lbp-signing-proxy
+  to bypass generating signature process 
+  */
+  static const lbpAPILink = 'LINE_BLOCKCHAIN_API_URL';
+}
+```
