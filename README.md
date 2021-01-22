@@ -35,5 +35,5 @@ https://youtu.be/fU6t9odfsdM
 
 ## Our team members:
 - [Sam](https://github.com/samyrsd)
-- [Sophy] (https://github.com/pipidx)
-- [Sreyorn] (https://github.com/Sreyorn)
+- [Sophy](https://github.com/pipidx)
+- [Sreyorn](https://github.com/Sreyorn)
