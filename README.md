@@ -23,7 +23,7 @@ class Config {
   /* 
   https://test-api.blockchain.line.me: for Cashew testnet
   https://api.blockchain.line.me: for Daphne
-  For this hackathon purpose, I run my own proxy from: https://github.com/behumble/lbp-signing-proxy
+  For this hackathon purpose, We run our own proxy from: https://github.com/behumble/lbp-signing-proxy
   to bypass generating signature process 
   */
   static const lbpAPILink = 'LINE_BLOCKCHAIN_API_URL';
@@ -32,3 +32,8 @@ class Config {
 
 ## Demo Application
 https://youtu.be/fU6t9odfsdM
+
+## Our team members:
+- [Sam](https://github.com/samyrsd)
+- [Sophy] (https://github.com/pipidx)
+- [Sreyorn] (https://github.com/Sreyorn)
