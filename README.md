@@ -3,9 +3,6 @@ This project was built in a two-day [Dreamin hackathon event](https://dreamin.ca
 
 The app was designed to be simple and intuitive and easy, so that everyone, even those without cryptocurrency experience, can use.
 
-# UI
-
-
 ## Getting Started
 - To run this project, register your LINE Blockchain Developer account from [here](https://blockchain.line.biz/).
 - Create your own Wallet, Asset, and Token
@@ -32,3 +29,6 @@ class Config {
   static const lbpAPILink = 'LINE_BLOCKCHAIN_API_URL';
 }
 ```
+
+## Demo Application
+https://youtu.be/fU6t9odfsdM
